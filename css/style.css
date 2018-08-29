@@ -5,6 +5,37 @@ body {
     background-size: 1540px 760px;
 }
 
+.jumbotron {
+    background-color: rgba(136, 0, 0, 0.637);
+    margin-top: 25px;
+}
+
+.display-4 {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(218, 185, 0);
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-family: 'Metamorphous', cursive;
+    color: rgb(218, 185, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn-primary {
+    font-family: 'Metamorphous', cursive;
+    color: rgb(218, 185, 0);
+    background-color: #126900;
+    border-color: #126900;
+}
+
+.btn {
+    font-size: 40px;
+}
+
 #container {
     background-color: rgba(136, 0, 0, 0.637);
     margin-top: 25px;
@@ -18,9 +49,58 @@ body {
     color: rgb(218, 185, 0);
 }
 
-#timer h3 {
+#timer {
     font-family: 'Metamorphous', cursive;
     text-align: center;
     font-size: 40px;
     color: rgb(218, 185, 0);
+}
+
+#questions {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    color: rgb(218, 185, 0);
+    font-size: 35px;
+    margin: 10px;
+}
+
+#answer-one {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    color: rgb(218, 185, 0);
+    font-size: 35px;
+    width: 100%;
+    margin: 20px;
+}
+
+#answer-two {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    color: rgb(218, 185, 0);
+    font-size: 35px;
+    width: 100%;
+    margin: 20px;
+}
+
+#answer-three {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    color: rgb(218, 185, 0);
+    font-size: 35px;
+    width: 100%;
+    margin: 20px;
+}
+
+#time-up {
+    font-family: 'Metamorphous', cursive;
+    color: rgb(218, 185, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+#counter {
+    font-family: 'Metamorphous', cursive;
+    color: rgb(218, 185, 0);
+    text-align: center;
+    font-size: 30px;
 }

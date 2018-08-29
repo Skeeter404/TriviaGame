@@ -11,6 +11,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="row">
+        <div class="col-sm-2"></div>
+
+        <div class="col-sm-8">
+            <div class="jumbotron" id="game-start">
+                <h1 class="display-4">✨Magical Trivia!✨</h1>
+                <br>
+                <p class="lead">This game is all about the wizarding world of Harry Potter and the creatures that dwell within it! You will have 10 seconds for each question. Enjoy!</p>                
+                <br>
+                <hr class="my-4">
+                <br><br>
+                <button type="button" id="play-button" class="btn btn-primary btn-lg btn-block">⚡Play!⚡</button>
+            </div>
+        </div>
+
+        <div class="col-sm-2"></div>
+    </div>
+
 
     <div class="row">
         <div class="col-sm-2"></div>
@@ -18,13 +36,14 @@
         <div class="col-sm-8" id="container">
             <div class="row">
                 <div class="col-sm-12" id="header">
-                    <h1>Magical Trivia!</h1>
+                    <br>
+                    <h1>✨Magical Trivia!✨</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-12" id="timer">
-                    <h3>00:00</h3>
+                <div class="col-sm-12">
+                    <h3  id="timer"></h3>
                 </div>
             </div>
 
@@ -33,15 +52,14 @@
 
                 </div>
             </div>
-
+            <br>
             <div class="row">
                 <div class="col-sm-2"></div>
 
                 <div class="col-sm-8" id="answers">
-                    <div id="answer-one"></div>
-                    <div id="answer-two"></div>
-                    <div id="answer-three"></div>
-                    <div id="answer-four"></div>
+                    <button id="answer-one" type="button" class="btn btn-dark" value="option1"></button>
+                    <button id="answer-two" type="button" class="btn btn-dark" value="option2"></button>
+                    <button id="answer-three" type="button" class="btn btn-dark" value="option3"></button>
                 </div>
 
                 <div class="col-sm-2"></div>
@@ -51,6 +69,19 @@
 
         <div class="col-sm-2"></div>
     </div>
+
+    <div class="row">
+            <div class="col-sm-2"></div>
+    
+            <div class="col-sm-8">
+                <div class="jumbotron" id="correct-wrong">
+                    <h1 class="display-4">✨Magical Trivia!✨</h1>
+                    <br>
+                    <p id="time-up"></p>                
+                    <br>
+                    <p id="counter"></p>
+                    <br>
+                </div>
    
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
     <script type="text/javascript" src="./javascript/app.js"></script>
